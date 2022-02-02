@@ -1,0 +1,30 @@
+* {
+    background-color: #444;
+}
+
+.container {
+    display: flex;
+    margin: auto;
+    margin-top: 10%;
+    border-radius: 5%;
+    background-color: #666;
+    width: 210px;
+    height: 300px;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+.backgroundFromCard {
+    width: 210px;
+    height: 37%;
+    filter: grayscale(.6) brightness(.4);
+}
+
+.miniature {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    right: 53%;
+    bottom: 52.5%;
+}
